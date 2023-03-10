@@ -153,6 +153,47 @@ img {
 	color: #fff;
 }
 
+.shipin {
+	bottom: 10rem;
+	/* left: 10rem; */
+	z-index: 9;
+}
+
+.videoed {
+	animation: iiii 4s infinite linear;
+}
+
+@keyframes iiii {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.videos {
+	display: none;
+	border: 10px solid #ffffff;
+	position: fixed;
+	/* position: absolute; */
+	/* margin-top:110px; */
+	bottom: 5%;
+	z-index: 10;
+}
+
+.vclose {
+	z-index: 10;
+	position: absolute;
+	right: 1%;
+	top: 1%;
+	border-radius: 100%;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+}
+
 .cen2 {
 	overflow: hidden;
 	width: 100%;
@@ -181,7 +222,7 @@ img {
 	width: 100%;
 	left: 0;
 	bottom: 30px;
-	1 z-index: 9;
+	z-index: 9;
 }
 
 .cen2-box {
@@ -278,6 +319,145 @@ img {
 .foot-r {
 	padding: 10px 20px;
 }
+
+
+
+
+
+
+
+.peizhi {
+	background-color: #1f1f1f;
+}
+
+.peizhi p {
+	color: #fff;
+}
+
+.peizhibiao p {
+	font-size: 20px;
+}
+@media screen and (max-width:2560px) {
+	.centext-img {
+		min-width: 100%;
+	}
+}
+@media screen and (max-width:1440px) {
+	.cen1-box{
+		left: 3rem;
+		top: 37rem;
+	}
+	.cen1-box-top img{
+		width: 650px;
+	}
+}
+@media screen and (max-width:1024px) {
+	.cen1-box{
+		width: 450px;
+		left: 1rem;
+		top: 27rem;
+		line-height: 20px;
+	}
+	.cen2-b-1{
+		width: 15rem;
+	}
+	.cen2-b-1-cc{
+		width: 30rem;
+	}
+	.centext-img{
+		margin-left: -200px;
+	}
+}
+@media screen and (max-width:768px) {
+	.cen1-box{
+		width: 300px;
+		left: 1rem;
+		top: 21rem;
+		line-height: 20px;
+	}
+	.cen1-box span{
+	font-size: 16px;	
+	}
+	.centext-img{
+		margin-left: -300px;
+	}
+}
+@media screen and (max-width:575px) {
+	img {
+		-webkit-user-drag: auto;
+	}
+	.shipin {
+		bottom: 20px;
+		left: 38%;
+	}
+	.videos {
+		bottom: 35%;
+	}
+	.cen1-img {
+		width: 1300px;
+		margin-left: -810px;
+	}
+	.cen1-box {
+		top: 7rem;
+		left: 5rem;
+	}
+	.cen1-box-botton>span {
+		font-size: 16px;
+	}
+
+	.cen2-img {
+		width: 1300px;
+		margin-left: -400px;
+	}
+
+	.centext-img {
+		width: 700px;
+		margin-left: -100px;
+	}
+
+	.cen2-box h2 {
+		font-size: 20px;
+		font-weight: bold
+	}
+
+	.cen2-box h3 {
+		font-size: 16px;
+		font-weight: bold
+	}
+
+	.cen2xe {
+		bottom: 250px;
+	}
+
+	.cen2-b-1 {
+		width: 150px;
+		height: 80px;
+		padding: 5px 0;
+		border: 1px solid #fff;
+		border-radius: 20px;
+		margin: 10px auto;
+	}
+
+	.cen2-b-1-cc {
+		width: 250px;
+	}
+
+	.carousel-control-next-icon,
+	.carousel-control-prev-icon {
+		opacity: 0;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    
