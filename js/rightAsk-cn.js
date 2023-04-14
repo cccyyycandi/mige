@@ -45,7 +45,7 @@
           var tA = $(this);
           setTimeout(function () {
              tA.animate({
-                right: "-100"
+                right: "-70"
              }, 200, function () {});
           }, 50 * i);
        });
